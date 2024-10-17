@@ -1,0 +1,386 @@
+body {
+    font-family: "dm sans", arial
+}
+
+.attribution {
+    text-align:center;
+    font-size: 0.5rem;
+}
+
+.l-one-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100%;
+}
+
+.l-one-text {
+    color: black;
+    font-weight: 500;
+    font-size:2.25rem;
+    line-height: 2.5rem;
+    letter-spacing: -0.125rem;
+    padding-inline: 2rem;
+    text-align: left;
+}
+
+.quicker-word {
+    color: hsl(256, 67%, 59%);
+    font-style:italic;
+}
+
+.l-one-img {
+    width: 11.9rem;
+    margin-inline: auto;
+    margin-top: 2rem;
+}
+
+.l-two-text {
+    margin-top:2rem;
+    color: black;
+    font-weight: 500;
+    font-size:2.25rem;
+    line-height: 2.5rem;
+    letter-spacing: -0.125rem;
+    padding-inline: 2rem;
+    text-align: left;
+}
+
+.l-two-img {
+    width: 13.75rem;
+    margin-top: 4rem;
+    margin-left: 2rem;
+}
+
+.text-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100%;
+}
+
+.r-one-title {
+    color: white;
+    font-weight: 500;
+    font-size:3.875rem;
+    line-height: 3.625rem;
+    letter-spacing: -0.1875rem;
+    padding-inline: 2rem;
+    
+    padding-bottom: 1.1rem;
+    text-align: center;
+}
+
+.yellow-text {
+    color:hsl(39, 100%, 71%);
+} 
+
+.stars {
+    width:12rem;
+    margin-inline:auto;
+
+}
+.r-one-add-info {
+    color:white;
+    font-weight: 300;
+    font-size: 1.125rem;
+    text-align: center;
+    padding-top: 0.3rem;
+}
+
+.r-two-container {
+    
+}
+.r-two-illustration {
+    width:19.75rem;
+    padding-top:1.5rem;
+    padding-left:1.5rem;
+}
+
+.r-two-three-text {
+    font-size:2rem;
+    line-height:1.75rem;
+    letter-spacing: -0.125rem;
+    padding:1.5rem;
+    width:61%;
+    font-weight:500;
+    
+}
+.r-three-container {
+    overflow:hidden
+}
+.calendar-image {
+    max-width: 85%;
+    margin-inline: auto;
+    margin-bottom: -3.1rem;
+    padding-top: 0;
+}
+
+.r-four {
+    overflow:hidden
+}
+
+.r-four-title {
+    font-size:2rem;
+    line-height:1.75rem;
+    letter-spacing: -0.125rem;
+    padding-inline:1.5rem;
+    margin-bottom:1.5rem;
+    width:61%;
+    font-weight:500;
+}
+
+.diagram {
+    width: 24.5rem;
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.r-four-text {
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    margin-inline: 1.5rem;
+    font-weight: 500;
+}
+
+
+.r-five-title {
+    font-size: 3.875rem;
+    line-height: 3.625rem;
+    margin: 1.5rem;
+}
+
+.r-five-text {
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    margin-inline: 1.5rem;
+}
+
+.r-five-image {
+    max-width:11.2rem;
+    padding:1.5rem;
+    margin-top:1.5rem;
+}
+
+.r-six-text {
+    padding: 1.5rem;
+    font-size:2.5rem;
+    line-height:2.25rem;
+    letter-spacing: -0.125rem;
+    font-weight: 500px;
+    color:white
+}
+
+.growth-image {
+    max-width:16.25rem;
+    padding: 1.5rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    .r-one-title {
+        font-size: 3.375rem;
+        line-height: 3rem;
+        letter-spacing: -4%;
+        padding-inline: 6.25rem;
+        padding-bottom: 1.5rem;
+    }
+    .r-two-three-text {
+        font-size:1.75rem;
+        line-height:1.625rem;
+        letter-spacing: -6%;
+        padding:1.5rem;
+        width:75%;
+        font-weight:500;
+    }
+    .calendar-image {
+        max-width: 13rem;
+        margin-left: 1.5rem;
+        margin-bottom: 0rem;
+    }
+    .r-two-illustration {
+        padding-bottom: 2rem;
+    }
+    .r-four-title {
+        font-size:1.75rem;
+        line-height:1.625rem;
+        text-align: center;
+        letter-spacing: -6%;
+        padding-inline: 0;
+        margin-bottom:1.5rem;
+        margin-top:1.5rem;
+        width:100%;
+        font-weight:500;
+    }
+    .diagram {
+        width: 22.3rem;
+        margin-inline: auto;
+        margin-bottom: 1.5rem;
+    }
+    .r-four-text {
+        font-size: 1.125rem;
+        line-height: 1.25rem;
+        margin-inline: 2rem;
+        padding-inline: 8.5rem;
+        text-align: center;
+    }
+    .r-five-title {
+        font-size: 3.375rem;
+        line-height: 3rem;
+        margin-top: 1.5rem;
+        margin-bottom: 0;
+        grid-column: 1;
+        grid-row: 1;
+        letter-spacing: -4%;
+    }
+    
+    .r-five-text {
+        grid-column: 1;
+        grid-row: 1;
+        font-size: 1.125rem;
+        line-height: 1.25rem;
+        margin-inline: 1.5rem;
+        margin-top: auto;
+        margin-bottom: 1.5rem;
+    }
+    
+    .r-five-image {
+        grid-column: 2;
+        grid-row: 1;
+        max-width:11.2rem;
+        padding:1.5rem;
+        margin-top:0.5rem;
+        justify-self: end;
+    }
+    .r-six-text {
+        font-size:2.25rem;
+        line-height:1.875rem;
+        letter-spacing: -6%;
+        max-width:16rem;
+        margin-right:auto;
+    }
+    .growth-image {
+        max-width:14.25rem;
+        margin-left:auto;
+    }
+    .l-one-text {
+        line-height: 1.875rem;
+    }
+    .l-one-img {
+        width: 11.9rem;
+        margin-inline: 0;
+        margin-left: 1.5rem;
+        margin-top: 2rem;
+    }
+    .l-two-text {
+        line-height: 1.875rem;
+    }
+
+    .l-two-img {
+        margin-top: 1rem;
+    }
+}
+@media only screen and (max-width:750px) {
+    .r-one-title {
+        font-size: 2.875rem;
+        line-height: 2.625rem;
+        letter-spacing: -0.125rem;
+        padding-inline: 2rem;
+        padding-bottom: 1rem;
+    }
+    
+    .r-two-illustration {
+        padding: 1rem 1rem 0.5rem 1rem;
+        
+    }
+
+    .r-two-three-text {
+        font-size:1.625rem;
+        line-height:1.625rem;
+        letter-spacing: -6%;
+        padding:0.5rem 1rem 1rem 1rem;
+        width:81%;
+        font-weight:500;
+    }
+
+    .three {
+        padding:1rem 1rem 0.7rem 1rem;
+    }
+
+    .calendar-image {
+        margin-left: 1rem;
+    }
+
+    .diagram {
+        width: 19.25rem;
+        margin-inline:auto;
+        margin-bottom: 1rem;
+    }
+
+    .r-four-text {
+        font-size: 1.125rem;
+        line-height: 1.25rem;
+        margin-inline: 2rem;
+        padding-inline: 0;
+        text-align: center;
+    }
+
+    .r-five-title {
+        font-size: 3.375rem;
+        line-height: 3rem;
+        margin-top: 1rem;
+        margin-bottom: 0;
+        grid-column: 1;
+        grid-row: 1;
+        letter-spacing: -4%;
+        
+    }
+    .r-five-text {
+        grid-column: 1;
+        grid-row: 1;
+        font-size: 1.125rem;
+        line-height: 1.25rem;
+        margin-inline: 1.5rem;
+        margin-bottom: 7rem;
+    }
+    .r-five-image {
+        grid-column: 1;
+        grid-row: 1;
+        padding:1.5rem;
+        margin-top:0rem;
+        justify-self:unset;
+        margin-top: auto;
+    }
+    .growth-image {
+        max-width:14.25rem;
+        margin:1.5rem 3.75rem 0 auto;
+        padding: 0;
+    }
+
+    .r-six-text {
+        font-size:2rem;
+        line-height:1.75rem;
+        letter-spacing: -6%;
+        max-width:17rem;
+        text-align: center;
+        padding: 0;
+        margin: 2.5rem auto 1rem auto;
+    }
+    .l-one-text {
+        font-size: 2rem;
+    }
+
+    .l-one-img {
+        width: 11.9rem;
+        margin-inline: 0;
+        margin-left: 2rem;
+        margin-top: 1.5rem;
+    }
+    .l-two-text {
+        font-size: 2rem;
+    }
+
+    .l-two-img {
+        margin-top: 1rem;
+        max-width: 12.75rem;
+    }
+}
